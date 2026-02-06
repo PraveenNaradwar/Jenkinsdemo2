@@ -3,8 +3,7 @@ pipeline{
     agent any
 
     environment{
-        python='C:\\Users\\S\\AppData\\Local\\Programs\\Python\\Python313\\python.exe
-'
+        python='C:\\Users\\S\\AppData\\Local\\Programs\\Python\\Python313\\python.exe'
     }
     stages{
         stage('checkout code'){
